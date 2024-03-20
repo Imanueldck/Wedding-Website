@@ -1,0 +1,85 @@
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 10rem;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0.5em;
+}
+
+.testi .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.testi .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  /* Tablet dan perangkat yang lebih besar */
+  .carousel-inner .carousel-item .container .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 50%; /* 2 kolom */
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Desktop dan perangkat yang lebih besar */
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 33.33%; /* 3 kolom */
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Layar yang lebih besar dari 992px */
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 25%; /* 4 kolom */
+    max-width: 25%;
+  }
+}
+.carousel-item img {
+  width: auto; /* Lebar gambar menyesuaikan proporsi aslinya */
+  max-height: 700px;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.footer li a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  gap: 3rem;
+}
+
+.card img.img-user {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -45px;
+  right: -20px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.card .star-container img {
+  width: 10px;
+  height: auto;
+}
+
+#packages .card-header {
+  background-color: rgb(37, 36, 36);
+  color: aliceblue;
+}
