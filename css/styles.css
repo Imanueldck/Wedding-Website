@@ -51,7 +51,7 @@
   }
 }
 .carousel-item img {
-  width: auto; /* Lebar gambar menyesuaikan proporsi aslinya */
+  width: 100%; /* Lebar gambar menyesuaikan proporsi aslinya */
   max-height: 700px;
 }
 ul li a:hover {
@@ -82,4 +82,36 @@ ul li a:hover {
 #packages .card-header {
   background-color: rgb(37, 36, 36);
   color: aliceblue;
+}
+
+.container1 button {
+  width: 100px;
+  padding: 10px;
+  align-items: center;
+}
+
+.container1 {
+  margin: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+#gallery {
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+#packages {
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+#testimonial {
+  padding-top: 35px;
+  margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 400px;
 }
