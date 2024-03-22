@@ -123,3 +123,28 @@ ul li a:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
+
+/* must know baru*/
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.jumbotron h1 {
+  color: #4a4a4a;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.jumbotron p {
+  color: #6c757d;
+}
+.card-image {
+  max-width: 100%;
+  max-height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
